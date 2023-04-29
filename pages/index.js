@@ -76,7 +76,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Angeliana es especialista en &aacute;reas de mercadeo, documentaci&oacute;n de procesos, administraci&oacute;n, estad&iacute;stica, emprendimiento, consultor&iacute;a fortalecimiento empresarial y asesor&iacute;a en gesti&oacute;n emocional para emprendedores. Con su s&oacute;lido conocimiento te&oacute;rico y experiencia, junto con su orientaci&oacute;n al logro y los resultados, ella puede aportar significativamente a cualquier empresa. Angeliana es una profesional comprometida con el &eacutexito de su equipo y de la empresa en la que trabaja.
+          Angeliana es especialista en &aacute;reas de mercadeo, documentaci&oacute;n de procesos, administraci&oacute;n, estad&iacute;stica, emprendimiento, consultor&iacute;a fortalecimiento empresarial y asesor&iacute;a en gesti&oacute;n emocional para emprendedores. Con su s&oacute;lido conocimiento te&oacute;rico y experiencia, junto con su orientaci&oacute;n al logro y los resultados, ella puede aportar significativamente a cualquier empresa. Angeliana es una profesional comprometida con el &eacute;xito de su equipo y de la empresa en la que trabaja.
         </Paragraph>
       </Section>
       <Section delay={0.2}>
@@ -87,7 +87,7 @@ const Home = () => (
           <BioYear>2013</BioYear>          
         </BioSection>
           <Paragraph>
-          Angeliana Alvarez fue una coordinadora de proyectos de emprendimiento en el programa EMFORMA durante seis a&ntilde;os, dirigi&ocute; a emprendedores y nuevos empresarios en el &aacute;rea de Aburr&aacute; Sur. Con una amplia experiencia en el fortalecimiento empresarial, Angeliana lidera y coordina proyectos para brindar a los emprendedores las herramientas necesarias para el &eacute;xito de sus proyectos empresariales. Como gestora de emprendimiento, Angeliana es una l&iacute;der apasionada que trabaja incansablemente para ayudar a los emprendedores a alcanzar sus objetivos, y as&iacute; contribuir al desarrollo econ&oacute;mico de la regi&oacute;n. Su compromiso y dedicaci&oacute;n son evidentes en la eficacia y eficiencia de los proyectos que lidera, logrando impactar positivamente la vida de muchos emprendedores en la regi&oacute;n.
+          Angeliana Alvarez fue una coordinadora de proyectos de emprendimiento en el programa EMFORMA durante seis a&ntilde;os, dirigi&oacute; a emprendedores y nuevos empresarios en el &aacute;rea de Aburr&aacute; Sur. Con una amplia experiencia en el fortalecimiento empresarial, Angeliana lidera y coordina proyectos para brindar a los emprendedores las herramientas necesarias para el &eacute;xito de sus proyectos empresariales. Como gestora de emprendimiento, Angeliana es una l&iacute;der apasionada que trabaja incansablemente para ayudar a los emprendedores a alcanzar sus objetivos, y as&iacute; contribuir al desarrollo econ&oacute;mico de la regi&oacute;n. Su compromiso y dedicaci&oacute;n son evidentes en la eficacia y eficiencia de los proyectos que lidera, logrando impactar positivamente la vida de muchos emprendedores.
           </Paragraph>
 
           <br />
@@ -131,14 +131,13 @@ const Home = () => (
             Contact me
           </Heading>
           <Box align="lefht" my={4}>
-            <Button
+          <Button
             rightIcon={<IoLogoLinkedin />}
             colorScheme="teal"
-            href="https://www.linkedin.com/in/angeliana-alvarez-piedrahita-24095129/" 
-            target="_blank"
+            onClick={() => window.open("https://www.linkedin.com/in/angeliana-alvarez-piedrahita-24095129/", "_blank")}
             >
-              LinkedIn
-            </Button>
+            LinkedIn
+          </Button>
           </Box>
       </Section>
     </Container>
