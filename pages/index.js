@@ -28,9 +28,9 @@ const Home = () => (
         mb={6}
         p={3}
         textAlign="center"
-        bg={useColorModeValue('blackAlpha.200', 'whiteAlpha.200')}
+        bg={useColorModeValue('whiteAlpha.200', 'blackAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
-      >
+        >
         ¡Hola! Saludos desde Antioquia Colombia.
       </Box>
 
@@ -73,27 +73,27 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Labor
         </Heading>
         <Paragraph>
-          Angeliana es especialista en &aacute;reas de mercadeo, documentaci&oacute;n de procesos, administraci&oacute;n, estad&iacute;stica, emprendimiento, consultor&iacute;a fortalecimiento empresarial y asesor&iacute;a en gesti&oacute;n emocional para emprendedores. Con su s&oacute;lido conocimiento te&oacute;rico y experiencia, junto con su orientaci&oacute;n al logro y los resultados, ella puede aportar significativamente a cualquier empresa. Angeliana es una profesional comprometida con el &eacutexito de su equipo y de la empresa en la que trabaja.
+          Angeliana es especialista en &aacute;reas de mercadeo, documentaci&oacute;n de procesos, administraci&oacute;n, estad&iacute;stica, emprendimiento, consultor&iacute;a, fortalecimiento empresarial y asesor&iacute;a en gesti&oacute;n emocional para emprendedores. Con su s&oacute;lido conocimiento te&oacute;rico y experiencia, junto con su orientaci&oacute;n al logro y los resultados, ella puede aportar significativamente a cualquier empresa. Angeliana es una profesional comprometida con el &eacute;xito de su equipo y de la empresa en la que trabaja.
         </Paragraph>
       </Section>
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Biograf&iacute;a
         </Heading>
         <BioSection>
-          <BioYear>2013</BioYear>          
+          <BioYear>Antecedente</BioYear>          
         </BioSection>
           <Paragraph>
-          Angeliana Alvarez fue una coordinadora de proyectos de emprendimiento en el programa EMFORMA durante seis a&ntilde;os, dirigi&ocute; a emprendedores y nuevos empresarios en el &aacute;rea de Aburr&aacute; Sur. Con una amplia experiencia en el fortalecimiento empresarial, Angeliana lidera y coordina proyectos para brindar a los emprendedores las herramientas necesarias para el &eacute;xito de sus proyectos empresariales. Como gestora de emprendimiento, Angeliana es una l&iacute;der apasionada que trabaja incansablemente para ayudar a los emprendedores a alcanzar sus objetivos, y as&iacute; contribuir al desarrollo econ&oacute;mico de la regi&oacute;n. Su compromiso y dedicaci&oacute;n son evidentes en la eficacia y eficiencia de los proyectos que lidera, logrando impactar positivamente la vida de muchos emprendedores en la regi&oacute;n.
+          Angeliana Alvarez fue una coordinadora de proyectos de emprendimiento en el programa EMFORMA durante seis a&ntilde;os, dirigi&oacute; a emprendedores y nuevos empresarios en el &aacute;rea de Aburr&aacute; Sur. Con una amplia experiencia en el fortalecimiento empresarial, Angeliana lidera y coordina proyectos para brindar a los emprendedores las herramientas necesarias para el &eacute;xito de sus proyectos empresariales. Como gestora de emprendimiento, Angeliana es una l&iacute;der apasionada que trabaja incansablemente para ayudar a los emprendedores a alcanzar sus objetivos, y as&iacute; contribuir al desarrollo econ&oacute;mico de la regi&oacute;n. Su compromiso y dedicaci&oacute;n son evidentes en la eficacia y eficiencia de los proyectos que lidera, logrando impactar positivamente la vida de muchos emprendedores.
           </Paragraph>
 
           <br />
 
         <BioSection>
-          <BioYear>2020</BioYear>
+          <BioYear>Actualidad</BioYear>
         </BioSection>        
           <Paragraph>
           Angeliana Alvarez es una consultora empresarial con experiencia en mejorar la transformaci&oacute;n digital, productividad, competitividad y rentabilidad de empresas. Su habilidad para liderar y trabajar en equipo, escuchar y ser solidaria, demuestra su capacidad para adaptarse a cada empresa y brindar soluciones personalizadas. Su capacidad de iniciativa y liderazgo hacen que sea una figura importante en el &eacute;xito de cualquier proyecto empresarial en el que se involucre. Los testimonios de sus clientes son una clara evidencia de la calidad de su trabajo y el impacto positivo que genera.
@@ -102,16 +102,16 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-        &#128151;
+        Ella &#128151;
         </Heading>
         <Heading as="h6" variant="caption">
-        Causas ben&eacute;ficas
+        Las causas ben&eacute;ficas
         </Heading>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          Follow me on Twitter
+          Siguela en Twitter
         </Heading>
         <List>
           
@@ -128,17 +128,16 @@ const Home = () => (
           </ListItem>          
         </List>
           <Heading as="h3" variant="section-title">
-            Contact me
+            Contactala
           </Heading>
           <Box align="lefht" my={4}>
-            <Button
+          <Button
             rightIcon={<IoLogoLinkedin />}
             colorScheme="teal"
-            href="https://www.linkedin.com/in/angeliana-alvarez-piedrahita-24095129/" 
-            target="_blank"
+            onClick={() => window.open("https://www.linkedin.com/in/angeliana-alvarez-piedrahita-24095129/", "_blank")}
             >
-              LinkedIn
-            </Button>
+            LinkedIn
+          </Button>
           </Box>
       </Section>
     </Container>
