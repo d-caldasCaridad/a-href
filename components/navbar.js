@@ -2,7 +2,6 @@ import {
   Container,
   Box,
   Stack,
-
   useColorModeValue,
   Heading
 } from '@chakra-ui/react'
