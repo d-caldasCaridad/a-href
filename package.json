@@ -1,6 +1,6 @@
 {
   "name": "angeliana-alvarez",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "web page of a network contact",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
