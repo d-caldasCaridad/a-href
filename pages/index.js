@@ -30,7 +30,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.200', 'blackAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
-        >
+      >
         ¡Hola! Saludos desde Antioquia Colombia.
       </Box>
 
@@ -41,7 +41,7 @@ const Home = () => (
           </Heading>
           <Paragraph>Innovaci&oacute;n + Transformaci&oacute;n Digital</Paragraph>
           <Heading as="h6" variant="caption">
-          Extensionista tecnológica en el Servicio Nacional de Aprendizaje (SENA)
+            Extensionista tecnológica en el Servicio Nacional de Aprendizaje (SENA)
           </Heading>
         </Box>
         <Box
@@ -61,7 +61,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="https://media.licdn.com/dms/image/C4E03AQGyNDaHJFIcNw/profile-displayphoto-shrink_800_800/0/1542809548403?e=1687996800&v=beta&t=ORvfbrrrUNxQPQpYcOM-_mgEyhSyhQzrGU_17vSWsCc"
+              src="./img-networking-Angeliana.png"
               alt="Profile image"
               borderRadius="full"
               width="100"
@@ -84,28 +84,28 @@ const Home = () => (
           Biograf&iacute;a
         </Heading>
         <BioSection>
-          <BioYear>Antecedente</BioYear>          
+          <BioYear>Antecedente</BioYear>
         </BioSection>
-          <Paragraph>
+        <Paragraph>
           Angeliana Alvarez fue una coordinadora de proyectos de emprendimiento en el programa EMFORMA durante siete a&ntilde;os, dirigi&oacute; a emprendedores y nuevos empresarios en la C&aacute;mara de Comercio Aburr&aacute; Sur. Con una amplia experiencia en el fortalecimiento empresarial, Angeliana lidera y coordina proyectos para brindar a los emprendedores las herramientas necesarias para el &eacute;xito de sus proyectos empresariales. Como gestora de emprendimiento, Angeliana es una l&iacute;der apasionada que trabaja incansablemente para ayudar a los emprendedores a alcanzar sus objetivos, y as&iacute; contribuir al desarrollo econ&oacute;mico de la regi&oacute;n. Su compromiso y dedicaci&oacute;n son evidentes en la eficacia y eficiencia de los proyectos que lidera, logrando impactar positivamente la vida de muchos emprendedores.
-          </Paragraph>
+        </Paragraph>
 
-          <br />
+        <br />
 
         <BioSection>
           <BioYear>Actualidad</BioYear>
-        </BioSection>        
-          <Paragraph>
+        </BioSection>
+        <Paragraph>
           Angeliana Alvarez es una consultora empresarial con experiencia en mejorar la transformaci&oacute;n digital, productividad, competitividad y rentabilidad de empresas. Su habilidad para liderar y trabajar en equipo, escuchar y ser solidaria, demuestra su capacidad para adaptarse a cada empresa y brindar soluciones personalizadas. Su capacidad de iniciativa y liderazgo hacen que sea una figura importante en el &eacute;xito de cualquier proyecto empresarial en el que se involucre. Los testimonios de sus clientes son una clara evidencia de la calidad de su trabajo y el impacto positivo que genera.
-          </Paragraph>
+        </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-        Ella &#128151;
+          Ella &#128151;
         </Heading>
         <Heading as="h6" variant="caption">
-        Las causas ben&eacute;ficas
+          Las causas ben&eacute;ficas
         </Heading>
       </Section>
 
@@ -114,7 +114,7 @@ const Home = () => (
           Siguela en Twitter
         </Heading>
         <List>
-          
+
           <ListItem>
             <Link href="https://twitter.com/AngelianaAP" target="_blank">
               <Button
@@ -125,20 +125,20 @@ const Home = () => (
                 @AngelianaAP
               </Button>
             </Link>
-          </ListItem>          
+          </ListItem>
         </List>
-          <Heading as="h3" variant="section-title">
-            Contactala
-          </Heading>
-          <Box align="lefht" my={4}>
+        <Heading as="h3" variant="section-title">
+          Contactala
+        </Heading>
+        <Box align="lefht" my={4}>
           <Button
             rightIcon={<IoLogoLinkedin />}
             colorScheme="teal"
             onClick={() => window.open("https://www.linkedin.com/in/angeliana-alvarez-piedrahita-24095129/", "_blank")}
-            >
+          >
             LinkedIn
           </Button>
-          </Box>
+        </Box>
       </Section>
     </Container>
   </Layout>
