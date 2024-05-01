@@ -1,5 +1,4 @@
-# [Sitio web de Angeliana Alvarez Piedrahita](https://www.deCaldas.github.io/a-href/)
-
+# [Sitio web de Angeliana Alvarez Piedrahita](https://www.deCaldas.github.io/angeliana-alvarez/)
 
 ## Stack
 
@@ -26,7 +25,7 @@ MIT License.
 
 You can create your own homepage for free without notifying me by forking this project under the following conditions:
 
-- Add a link to the homepage [https://www.deCaldas.github.io/home/](https://www.deCaldas.github.io/wd-p/) of who is the original creater.
+- Add a link to the homepage [https://www.deCaldas.github.io/home/](https://www.deCaldas.github.io/home/) of who is the original creater.
 
 
 Check out [LICENSE](./LICENSE) for more detail.
